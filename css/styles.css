@@ -1,0 +1,29 @@
+body{
+  background-color: #EFDFDD;
+}
+
+.login-box{
+  position:relative;
+  margin: 10px auto;
+  width: 500px;
+  height: 380px;
+  background-color: #E8A7BE;
+  padding: 10px;
+  border-radius: 3px;
+  filter: opacity(70%);
+}
+
+.lb-header{
+  /* position:relative; */
+
+  margin: 20px ;
+  padding-bottom:10px;
+  text-align:center;
+  height:28px;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+.u-form-group{
+  background-color:
+}
