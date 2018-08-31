@@ -1,15 +1,19 @@
 body{
-  background-color: #EFDFDD;
+  background: url(https://media.giphy.com/media/3miUh8iY1suETldlqv/giphy.gif) 0 0;
+  /* background-color: #EFDFDD; */
 }
-
+#home{
+  max-width: 1000%;
+  height: 1000%;
+}
 .login-box{
   position:relative;
-  margin: 10px auto;
-  width: 500px;
-  height: 380px;
-  background-color: #E8A7BE;
-  padding: 10px;
-  border-radius: 3px;
+  margin: 90px auto;
+  width: 600px;
+  height: 580px;
+  background-color: #11FBFB;
+  padding: 20px;
+  border-radius: 8px;
   filter: opacity(70%);
 }
 
@@ -26,4 +30,33 @@ body{
 
 .u-form-group{
   background-color:
+}
+.u-form-group input[type="email"],
+.u-form-group input[type="password"]{
+  width: calc(50% - 22px);
+  height:45px;
+  outline: none;
+  border: 1px solid #ddd;
+  padding: 0 10px;
+  border-radius: 2px;
+  color: #072E0E;
+  font-size:15px;
+  -webkit-transition:all 0.1s linear;
+  -moz-transition:all 0.1s linear;
+  transition:all 0.1s linear;
+}
+.u-form-group input:focus{
+  border-color: #358efb;
+}
+.u-form-group button{
+  width:50%;
+  background-color: #1CB94E;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: normal;
+  padding: 14px 0;
+  border-radius: 2px;
+  text-transform: uppercase;
 }
